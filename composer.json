@@ -1,0 +1,23 @@
+{
+    "name": "simplexi/greetr",
+    "description": "Greetr A simple Laravel packages.\"",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel  Olufemi",
+            "email": "samuel.olufemi@iisysgroup.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Simplexi\\Greetr\\": "packages/simplexi/greetr/src"
+        }
+    },
+    "classmap":[
+        "database/seeds",
+        "database/factories"
+    ],
+    "require": {}
+}
